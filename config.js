@@ -1,5 +1,5 @@
 const assetTicker = "iRX";
-const logoSrc = "https://i.imgur.com/eUTv6xE.png";
+const logoSrc = "eg-logo.svg";
 const primaryColor = "#6C63FF";   
 const secondaryColor = "#3AD29F";
 const thirdColor = "#F55F44";
