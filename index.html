@@ -200,6 +200,11 @@
      font-size: 2vh;
      margin-top: 2vh;
    }
+   .welcome-card {
+     width: 88vw;
+     height: 49vw;
+     border-radius: 4.5%;
+   }
   </style>
 </head>
 <body>
@@ -378,6 +383,16 @@
     icon: 'success',
     customClass: 'copied-ref',
     });
+  }
+  const createHome = function() {
+    showBtnPressed('home-btn');
+    var mainContainer = document.querySelector(".main-container");
+    mainContainer.innerHTML+=`
+      <div class="welcome-card" style="background-color: ${trophyColors[1]};">
+	<p class="welcome-text">Welcome back, ${guestName}.</p>
+        <p>4${assetTicker} until ${trophyTiers[0]}</p>
+      </div>
+    `;
   }
 </script>
 </html>
