@@ -7,7 +7,8 @@ const thirdColor = "#F55F44";
 const trophyColors = ["#C3C3C3","#F4B226","#C2907D"];
 const trophyTiers = ["platinum", "gold", "bronze"];
 //if becomes webapp, webapp will communicate with this server:
-const premioServer = "";
+const URL_BASE = "https://premio-demo.caprover.acuerdo.dev/";
+const WS_URL = "https://premio-demo.caprover.acuerdo.dev/paydb";
 // if becomes webapp, these will be dynamic:
 const guestName = "Alex";
 const vouchers = ["15% off", "$5 off", "10% off"];
